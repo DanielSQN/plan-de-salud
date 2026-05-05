@@ -36,30 +36,36 @@
   <main>
     <section class="hero section-shell" id="inicio">
       <div class="hero-copy">
-        <span class="eyebrow">Planes</span>
-        <h1>Encuentra aqui el plan de salud ideal para ti.</h1>
-        <p>Mas de 13 anos cuidando la salud de nuestros clientes con asesoria clara, cercana y opciones ajustadas a cada necesidad.</p>
+        <h1>
+          <span>Encuentra aqui</span>
+          <span class="hero-title-highlight">El Plan de Salud</span>
+          <span>Ideal para ti.</span>
+        </h1>
+        <p class="hero-proof"><strong>Mas de 13 anos</strong> cuidando la salud de nuestros clientes.</p>
+        <p class="hero-subtitle">Medicina Prepagada <span data-rotating-subtitle>Para ti</span></p>
         <div class="hero-actions">
-          <a class="button primary" href="planes.html">Ver todos los planes</a>
-          <a class="button secondary" href="#contacto">Cotiza ahora</a>
+          <a class="button hero-plan-button" href="planes.html">Ver todos los planes</a>
         </div>
       </div>
 
       <aside class="quote-panel" aria-label="Formulario de cotizacion">
-        <span class="panel-kicker">Cotiza ahora</span>
-        <h2>Obtén orientacion para elegir mejor</h2>
+        <h2><strong>Cotiza ahora</strong> y obten los <strong>mejores precios.</strong></h2>
         <form class="quote-form">
           <label>
-            Nombre
-            <input type="text" name="name" placeholder="Tu nombre" autocomplete="name">
+            <span>Nombres y Apellidos</span>
+            <input type="text" name="name" placeholder="Nombres y Apellidos" autocomplete="name">
           </label>
           <label>
-            Correo
-            <input type="email" name="email" placeholder="correo@ejemplo.com" autocomplete="email">
+            <span>Email *</span>
+            <input type="email" name="email" placeholder="Email *" autocomplete="email">
+          </label>
+          <label>
+            <span>Telefono</span>
+            <input type="tel" name="phone" placeholder="Telefono" autocomplete="tel">
           </label>
           <label class="checkbox-row">
             <input type="checkbox" name="privacy">
-            <span>He leido y acepto la politica de privacidad.</span>
+            <span>He leido y acepto la <a href="https://miplandesalud.co/politica-privacidad/" target="_blank" rel="noopener">politica de privacidad</a></span>
           </label>
           <button class="button primary full" type="submit">Enviar</button>
         </form>
