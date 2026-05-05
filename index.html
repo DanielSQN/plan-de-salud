@@ -26,11 +26,18 @@
     <nav class="main-nav" id="main-nav" data-nav>
       <a href="#inicio">Inicio</a>
       <a href="planes.html">Planes</a>
-      <a href="#blog">Blog</a>
+      <a href="#testimonios">Testimonios</a>
       <a href="#contacto">Contacto</a>
     </nav>
 
-    <a class="header-cta" href="https://wa.link/8m5ff4" target="_blank" rel="noopener">+57 318 890 7425</a>
+    <a class="header-cta" href="https://api.whatsapp.com/send?phone=573188907425&text=Hola%2C%20estoy%20buscando%20contacto%20con%20un%20asesor%20de%20Seal%20seguros%20Ltda." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp al +57 318 890 7425">
+      <span class="header-cta-icon" aria-hidden="true">
+        <svg viewBox="0 0 32 32" focusable="false">
+          <path d="M16.04 3.2A12.73 12.73 0 0 0 5.18 22.55L3.56 28.8l6.39-1.53a12.72 12.72 0 1 0 6.09-24.07Zm0 2.4a10.32 10.32 0 1 1-5.26 19.21l-.38-.23-3.21.77.82-3.14-.25-.4A10.33 10.33 0 0 1 16.04 5.6Zm-4.43 4.95c-.24 0-.63.09-.96.45-.33.36-1.26 1.23-1.26 3 0 1.76 1.29 3.47 1.47 3.71.18.24 2.49 3.99 6.14 5.43 3.03 1.19 3.65.95 4.31.89.66-.06 2.13-.87 2.43-1.71.3-.84.3-1.56.21-1.71-.09-.15-.33-.24-.69-.42-.36-.18-2.13-1.05-2.46-1.17-.33-.12-.57-.18-.81.18-.24.36-.93 1.17-1.14 1.41-.21.24-.42.27-.78.09-.36-.18-1.52-.56-2.89-1.78-1.07-.95-1.79-2.13-2-2.49-.21-.36-.02-.55.16-.73.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.45-.03-.63-.09-.18-.81-1.95-1.11-2.67-.29-.7-.59-.6-.81-.61h-.69Z"/>
+        </svg>
+      </span>
+      <span class="header-cta-number">+57 318 890 7425</span>
+    </a>
   </header>
 
   <main>
@@ -41,7 +48,6 @@
           <span class="hero-title-highlight">El Plan de Salud</span>
           <span>Ideal para ti.</span>
         </h1>
-        <p class="hero-proof"><strong>Mas de 13 anos</strong> cuidando la salud de nuestros clientes.</p>
         <p class="hero-subtitle">Medicina Prepagada <span data-rotating-subtitle>Para ti</span></p>
         <div class="hero-actions">
           <a class="button hero-plan-button" href="planes.html">Ver todos los planes</a>
@@ -49,25 +55,17 @@
       </div>
 
       <aside class="quote-panel" aria-label="Formulario de cotizacion">
-        <h2><strong>Cotiza ahora</strong> y obten los <strong>mejores precios.</strong></h2>
-        <form class="quote-form">
+        <h2><strong>Cuéntanos tus datos</strong> y recibe una cotización personalizada por WhatsApp.</h2>
+        <form class="quote-form" data-whatsapp-form>
           <label>
             <span>Nombres y Apellidos</span>
-            <input type="text" name="name" placeholder="Nombres y Apellidos" autocomplete="name">
-          </label>
-          <label>
-            <span>Email *</span>
-            <input type="email" name="email" placeholder="Email *" autocomplete="email">
+            <input type="text" name="name" placeholder="Nombres y Apellidos" autocomplete="name" required>
           </label>
           <label>
             <span>Telefono</span>
-            <input type="tel" name="phone" placeholder="Telefono" autocomplete="tel">
+            <input type="tel" name="phone" placeholder="Telefono" autocomplete="tel" required>
           </label>
-          <label class="checkbox-row">
-            <input type="checkbox" name="privacy">
-            <span>He leido y acepto la <a href="https://miplandesalud.co/politica-privacidad/" target="_blank" rel="noopener">politica de privacidad</a></span>
-          </label>
-          <button class="button primary full" type="submit">Enviar</button>
+          <button class="button primary full" type="submit">Cotizar</button>
         </form>
       </aside>
     </section>
@@ -94,18 +92,21 @@
         <a class="button primary" href="planes.html">Ver planes</a>
       </div>
       <div class="feature-list">
-        <article>
+        <a class="feature-card" href="planes.html" aria-label="Ver planes de salud para todos">
           <h3>Planes de salud para todos</h3>
           <p>Opciones por etapa de vida, presupuesto y necesidades de cobertura.</p>
-        </article>
-        <article>
+          <span class="card-link-hint">Ver planes -></span>
+        </a>
+        <a class="feature-card" href="#por-que" aria-label="Ir a la seccion Que queremos lograr">
           <h3>Que queremos lograr</h3>
           <p>Soluciones a la medida para no elegir entre tranquilidad y bienestar.</p>
-        </article>
-        <article>
+          <span class="card-link-hint">Ver mas -></span>
+        </a>
+        <a class="feature-card" href="#beneficios" aria-label="Ir a la seccion Nuestros beneficios">
           <h3>Nuestros beneficios</h3>
           <p>Cobertura accesible, flexibilidad, calidad medica y respaldo confiable.</p>
-        </article>
+          <span class="card-link-hint">Ver beneficios -></span>
+        </a>
       </div>
     </section>
 
@@ -151,17 +152,17 @@
 
     <section class="plan-highlight section-shell">
       <div>
-        <span class="eyebrow">Planes de salud para todos</span>
-        <h2>Medicina Prepagada Sura</h2>
-        <p>Elige un plan accesible y flexible, con calidad medica, atencion cercana y la tranquilidad de proteger a tu familia.</p>
+        <span class="eyebrow plan-highlight-eyebrow">Planes de Salud Para Todos</span>
+        <h2 class="plan-rotating-line"><span data-plan-rotating-subtitle>Medicina Prepagada Sura</span></h2>
+        <p class="plan-highlight-description">Elige un plan de salud accesible y flexible, con calidad medica, atencion cercana y la tranquilidad de proteger a tu familia siempre.</p>
       </div>
       <div class="hero-actions">
-        <a class="button primary" href="https://api.whatsapp.com/send?phone=573188907425" target="_blank" rel="noopener">Cotizar medicina prepagada</a>
-        <a class="button secondary" href="planes.html">Ver planes</a>
+        <a class="button primary" href="planes.html">Conocer mas informacion de los planes</a>
+        <a class="button secondary" href="https://api.whatsapp.com/send?phone=573188907425&text=Hola%2C%20quiero%20recibir%20mas%20informacion%20sobre%20los%20planes%20de%20salud%20disponibles%2C%20sus%20beneficios%2C%20coberturas%20y%20precios." target="_blank" rel="noopener">Hablar con un asesor</a>
       </div>
     </section>
 
-    <section class="testimonials section-shell" id="blog">
+    <section class="testimonials section-shell" id="testimonios">
       <div class="section-heading">
         <span class="eyebrow">Lo que piensan de nosotros</span>
         <h2>Clientes que valoran la asesoria y el respaldo.</h2>
@@ -193,11 +194,11 @@
     </div>
     <address>
       <strong>Consultas</strong>
-      <a href="https://wa.link/8m5ff4" target="_blank" rel="noopener">+57 318 890 7425</a>
+      <a href="https://api.whatsapp.com/send?phone=573188907425&text=Hola%2C%20estoy%20buscando%20contacto%20con%20un%20asesor%20de%20Seal%20seguros%20Ltda." target="_blank" rel="noopener">+57 318 890 7425</a>
       <span>Carrera 17 # 88 - 36 Bogota - Col</span>
       <a href="mailto:gerencia@actseguros.com">gerencia@actseguros.com</a>
     </address>
-    <p class="copyright">© 2025 ACT Seguros. Todos los derechos reservados.</p>
+    <p class="copyright">© 2025 Seal seguros Ltda. Todos los derechos reservados.</p>
   </footer>
 
   <script src="script.js"></script>

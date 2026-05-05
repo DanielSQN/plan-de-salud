@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Medicina Prepagada Sura Plus",
+    "category": "Medicina prepagada",
+    "priceFrom": "91983",
+    "priceUnit": "mes",
+    "recommended": true,
+    "summary": "Salud y bienestar al alcance de todos, con precio para dos personas.",
+    "features": [
+      "Consultas ilimitadas",
+      "Cobertura nacional en clinicas de alto nivel",
+      "Acceso a especialistas",
+      "Atencion cercana para familias"
+    ]
+  },
+  {
+    "name": "Medicina Prepagada Sura Preferencial",
+    "category": "Medicina prepagada",
+    "priceFrom": "160811",
+    "priceUnit": "mes",
+    "recommended": false,
+    "summary": "Mas beneficios, mas respaldo y mas tranquilidad para proteger lo importante.",
+    "features": [
+      "Red medica preferencial",
+      "Consultas especializadas",
+      "Apoyo en hospitalizacion",
+      "Acompanamiento durante el proceso"
+    ]
+  },
+  {
+    "name": "Medicina Prepagada Sura Clasica",
+    "category": "Medicina prepagada",
+    "priceFrom": null,
+    "priceUnit": null,
+    "recommended": false,
+    "summary": "La medicina prepagada mas completa de SURA para cuidarte sin limites.",
+    "features": [
+      "Cobertura nacional en clinicas de alto nivel",
+      "Maternidad completa",
+      "Consultas por medicina general",
+      "Acceso a red medica aliada"
+    ]
+  },
+  {
+    "name": "Medicina Prepagada Colmedica Colina Exclusivo",
+    "category": "Medicina prepagada",
+    "priceFrom": "236887",
+    "priceUnit": "mes",
+    "recommended": false,
+    "summary": "Disenado para quienes buscan atencion medica rapida, de calidad y sin complicaciones.",
+    "features": [
+      "Atencion medica a nivel nacional",
+      "Hospitalizacion en habitacion individual",
+      "Cobertura en maternidad y recien nacido",
+      "Terapias y atencion psicologica"
+    ]
+  },
+  {
+    "name": "Medicina Prepagada Axa Colpatria",
+    "category": "Salud y bienestar",
+    "priceFrom": null,
+    "priceUnit": null,
+    "recommended": false,
+    "summary": "Salud sin fronteras, respaldo sin limites.",
+    "features": [
+      "Cobertura nacional e internacional",
+      "Hospitalizacion en habitacion individual",
+      "Cobertura completa en maternidad",
+      "Acceso ilimitado a especialidades"
+    ]
+  },
+  {
+    "name": "Medicina Prepagada Axa Colpatria",
+    "category": "Salud y bienestar",
+    "priceFrom": null,
+    "priceUnit": null,
+    "recommended": false,
+    "summary": "Salud sin fronteras, respaldo sin limites.",
+    "features": [
+      "Cobertura nacional e internacional",
+      "Hospitalizacion en habitacion individual",
+      "Cobertura completa en maternidad",
+      "Acceso ilimitado a especialidades"
+    ]
+  }
+]
